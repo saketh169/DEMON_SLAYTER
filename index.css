@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fce7f3; /* Light pink background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61; /* Bright coral for header */
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ff6f61; /* Matching color for "Choose Your Character" */
+    margin-top: 40px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff8c00; /* Bright orange background for buttons */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 14px #999;
+    margin: 20px;
+    border: 7px solid white;
+}
+
+button:hover {
+    background-color: #ff7f32; /* Slightly darker orange on hover */
+}
+
+button:active {
+    background-color: rgb(213, 58, 58);
+    box-shadow: 0 20px #666;
+    transform: translateY(4px);
+}
+
+footer {
+    background-color: #ff6f61; /* Matching footer color */
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
